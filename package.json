@@ -1,0 +1,20 @@
+{
+  "name": "sql-to-es",
+  "version": "0.0.1",
+  "description": "sql to es translation",
+  "main": "src/index.js",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/ananlvjiao/sql-to-es.git"
+  },
+  "author": "ananlvjiao",
+  "license": "ISC",
+  "dependencies": {
+    "sugar": "~1.4.1",
+    "elasticsearch": "~3.0.2",
+    "seq": "~0.3.5",
+    "async": ">0.8.0",
+    "redis": "~0.12.1",
+    "knex": "~0.7.0"
+  }
+}
